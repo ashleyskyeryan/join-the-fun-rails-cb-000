@@ -1,6 +1,6 @@
 class AddTaxiIdToRide < ActiveRecord::Migration
   def change
-    change_table :ride do |t|
+    change_table :rides do |t|
       t.integer :taxi_id
     end
   end
